@@ -45,7 +45,7 @@ header{
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
-    text-align: center;
+    text-align: left;
 }
 }
 
@@ -112,8 +112,8 @@ input {
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: italic;
+    font-size: 14px;
 }
 
 button {
