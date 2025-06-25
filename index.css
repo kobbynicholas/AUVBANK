@@ -36,13 +36,14 @@ header{
 }
 
 .main1 {
-     background-color: #237d7b;
+    background-color: #237d7b;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(1, 1, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 500px;
     text-align: left;
+    color: white;
 }
 
 .main2 {
