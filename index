@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>AUV BANKING</title>
+    <link rel="stylesheet" 
+          href="index.css">
+</head>
+
+<body>
+	<d><h2>BANKING DATA INPUT</h2></d>
+
+		<div class="logo">
+		<img src="min.jpeg"  width="50" height="50"  >	
+		</div>	
+	 <p></p>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	
+    <div class="main">
+        <h1>CHILDREN'S MINISTRY</h1>
+        
+	    <p></p>
+
+	    NOTICE: please enter the data before the dead line..... thank you.
+
+	    <p></p>
+        <p><a href="home.html"><button>Select Local</button></a>  
+	 <p><a href="search.html"><button>Select Local</button></a>  
+</body>
+<style>
+
+	body{
+		background:url("child.jpeg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('child.jpeg');
+		}													  
+	</style>
+</html>
