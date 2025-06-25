@@ -28,9 +28,9 @@ header{
 
 
 .main {
-    background-color: yellow;
+    background-color: #02421f;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 1, 0.5);
     padding: 10px 20px;
     transition: transform 5.2s;
     width: 300px;
@@ -63,7 +63,7 @@ header{
 
 
 h1 {
-    color: red;
+    color: #43f00e;
 }
 
 h2 {
