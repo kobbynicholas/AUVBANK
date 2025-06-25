@@ -39,14 +39,14 @@ header{
 }
 
 .main1 {
-    background-color: yellow;
+     background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    transition: transform 5.2s;
-    width: 360px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
     text-align: center;
-    align-items: center;
-    margin-top: 35px;
+}
 }
 
 .main2 {
