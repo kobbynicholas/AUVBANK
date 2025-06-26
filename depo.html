@@ -65,17 +65,15 @@
 
   const today = new Date();
   const year = today.getFullYear();
-  const time = today.getTime();	
   const month = String(today.getMonth() + 1).padStart(2, '0');
   const day = String(today.getDate()).padStart(2, '0');
-  const formattedDate = `${year}-${month}-${day}`;
-  const formattedTime = `${hour}:${second}`;
-
+  const formattedDate = `${year}-${month}-${day}--${hour}:${second}`;
+ 
 
 
 	
   document.getElementById("todayDate").value = formattedDate;
-  document.getElementById("Time").value = formattedTime;
+
 
 
 	
