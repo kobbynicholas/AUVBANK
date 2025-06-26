@@ -42,6 +42,7 @@ header{
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 400px;
+    align-items: center;
     text-align: left;
 }
 
