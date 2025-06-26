@@ -5,7 +5,7 @@ body {
     justify-content: center;
     font-family: sans-serif;
     line-height: 1.5;
-    min-height: 500vh;
+    min-height: 50vh;
     background: #f0f0f0;
     flex-direction: column;
     margin: 0;
