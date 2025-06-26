@@ -103,7 +103,7 @@ label {
 
 input {
     display: block;
-    width: 6500%;
+    width: 4500%;
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
@@ -121,7 +121,7 @@ button {
     border: none;
     color: blue;
     cursor: pointer;
-    background-color: #02f266;
+    background-color: #91fc05;
     width: 100%;
     font-size: 16px;
 }
