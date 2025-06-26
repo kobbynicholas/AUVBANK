@@ -32,7 +32,7 @@
 
 		Date<div><input type="date" name="Date" id="todayDate"  required></p></div>	
 		
-	    	Time<div><input type="time" name="Time" id="todayTime"  required></p></div>
+	    	Time<div><input type="time" name="Time" id="Time"  required></p></div>
 
 	    
       		<div></div>
@@ -65,16 +65,17 @@
 
   const today = new Date();
   const year = today.getFullYear();
+  const time = today.getTime();	
   const month = String(today.getMonth() + 1).padStart(2, '0');
   const day = String(today.getDate()).padStart(2, '0');
   const formattedDate = `${year}-${month}-${day}`;
-  const formattedTime = `${hour}:${second}-${am/pm}`;
+  const formattedTime = `${hour}:${second}`;
 
 
 
 	
   document.getElementById("todayDate").value = formattedDate;
-  document.getElementById("todayTime").value = formattedTime;
+  document.getElementById("Time").value = formattedTime;
 
 
 	
