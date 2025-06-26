@@ -36,14 +36,13 @@ header{
 }
 
 .main1 {
-    background-color: #237d7b;
+    background-color: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 1.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
     transition: transform 0.2s;
-    width: 400px;
-    text-align: left;
-    color: white;
+    width: 500px;
+    text-align: center;
 }
 
 .main2 {
@@ -102,14 +101,13 @@ label {
 
 
 input {
-    display: block;
-    width: 350%;
+     display: block;
+    width: 300px;
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 14px;
 }
 
 button {
