@@ -67,6 +67,10 @@ h3 {
 h4 {
     color: blue;
 }
+h6 {
+    color: #15f205;
+}
+
 
 #submit{
 	border: none;
