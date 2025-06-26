@@ -20,7 +20,7 @@ function showDiv() {
   },5000);
 
 function disableButton() {
-  document.getElementById("myButton").disabled = true;
+  document.getElementById("submit").disabled = true;
 }
 
   
