@@ -30,7 +30,7 @@ header{
     box-shadow: 0 0 20px rgba(0, 0, 1, 0.5);
     padding: 10px 20px;
     transition: transform 5.2s;
-    width: 300px;
+    width: 400px;
     text-align: center;
     align-items: center;
 }
@@ -38,7 +38,7 @@ header{
 .main1 {
     background-color: #237d7b;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.2);
     padding: 10px 20px;
     transition: transform 0.2s;
     width: 400px;
