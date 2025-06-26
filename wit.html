@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="UTF-8">
+    	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>AUV DEPO</title>
+    <link rel="stylesheet" 
+          href="index.css">
+</head>
+<body>
+	<d><h2>DEPOSIT</h2></d>
+	
+<div class="main2">	
+<nav>
+<ul>	
+	<li><a href="index.html">Home</a></li>	 
+	<li><a href="wit.html">Withdraw</a></li>
+</ul>
+</nav>	
+</div>
+<p ></p>	
+<form method="post" action=" " name="contact-form">
+	
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	
+    <div class="main1">
+         
+		Account Number.<div><input type="number" name="Account Number" placeholder="enter the last four digits" required></p></div>
+		<p></p>
+		Amount<div><input type="number" name="Amount" placeholder="enter deposit amount"  required></p></div>	
 
+		Date<div><input type="datetime-local" name="Date" id="todayDate" value="" required></p></div>	
+		
+      		
+		<div><p><input type="submit" value="Send" id="Add"  onclick="showDiv()"></p></div>
+</div>
+	    
+<div id="showme" style="display:none;"></div>
+<div id="loadingGif" style="display:none"><img src="load.gif"  width="80" height="70" align-item="center" ></div>
+      
+</body>
+<style>
+
+	body{
+		background:url("win.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('win.jpg');
+		}													  
+	</style>
+
+
+<script>
+  // Get current date and time
+	 /// var now = new Date();
+	 /// var datetime = now.toLocaleString();
+
+  // Insert date and time into HTML
+	 /// document.getElementById("datetime").innerHTML = datetime;
+
+function getCurrentDateTime() {
+  const today = new Date(now);
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+  const hours = String(now.getHours()).padStart(2, '0');
+  const minutes = String(now.getMinutes()).padStart(2, '0');
+  const formattedayDate = `${year}-${month}-${day}T${hours}:${minutes}`;
+  return tedayDateString;
+}	
+  document.getElementById("todayDate").value = formattedDate;
+  dateTimeInput.value = gettodayDate();
+
+
+	
+</script>
+
+	    
+</html>
