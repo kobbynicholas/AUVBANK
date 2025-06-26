@@ -59,7 +59,7 @@
   // Insert date and time into HTML
 	 /// document.getElementById("datetime").innerHTML = datetime;
 
-
+function getCurrentDateTime() {
   const today = new Date(now);
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, '0');
@@ -67,7 +67,7 @@
   const hours = String(now.getHours()).padStart(2, '0');
   const minutes = String(now.getMinutes()).padStart(2, '0');
   const formattedDate = `${year}-${month}-${day}T${hours}:${minutes}`;
- 	
+}	
   document.getElementById("todayDate").value = formattedDate;
   dateTimeInput.value = gettodayDate();
 
