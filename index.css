@@ -9,20 +9,16 @@ body {
     background: #f0f0f0;
     flex-direction: column;
     margin: 0;
-
 }
-
 header{
     display: flex;
     align-items: left;
     color: yellow;
 }
-
 .logo{
     display: flex;
     align-items: center;	
 }
-
 
 .main {
     background-color: #02421f;
@@ -49,7 +45,7 @@ header{
 .main2 {
     background-color: #083b3a;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.0);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: transform 1.2s;
     width: 400px;
     text-align: center;
@@ -57,16 +53,12 @@ header{
     align-items: center;
     margin-top: 35px;
 }
-
-
 h1 {
     color: black;
 }
-
 h2 {
     color: white;
 }
-
 h3 {
     color: #43f00e;
 }
@@ -89,7 +81,6 @@ h4 {
 .wrap {
 	
 }
-
 label {
     display: block;
     width: 100%;
@@ -99,10 +90,8 @@ label {
     color: #555;
     font-weight: bold;
 }
-
-
 input {
-     display: block;
+    display: block;
     width: 300px;
     margin-bottom: 15px;
     padding: 10px;
@@ -110,7 +99,6 @@ input {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-
 button {
     padding: 15px;
     border-radius: 10px;
