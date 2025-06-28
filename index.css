@@ -129,9 +129,15 @@ button {
     color: blue;
     cursor: pointer;
     background-color: #91fc05;
-    width: 100%;
-    font-size: 16px;
+    width: 70%;
+    font-size: 18px;
+    text-color: black;
+
 }
+button:hover{
+	background-color: red;
+}
+
 
 .wrap {
     display: flex;
