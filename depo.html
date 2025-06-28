@@ -24,8 +24,8 @@
 	
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 
-//<div id="showme" style="display:none;"></div>
-<div id="loadingGif" class="loading" ><img src="load.gif"  alt="Loading..."  width="80" height="70" align-item="center" ></div>
+
+<img src="load.gif"  alt="Loading..."  width="80" height="70" align-item="center" ></div>
 
 			
     <div class="main1">
@@ -38,11 +38,13 @@
 
 		Date<div><input type="datetime-local" name="Date" id="todayDate" value="" required></p></div>	
 		
-		<div><p><input type="submit" value="Send" id="Add"  onclick="showDiv()"></p></div>
+		<div><p><input type="submit" value="Send" id="Add"  onclick="showDiv()" <div id="loadingGif" class="loading" >  ></p></div>
 	    
 
 		</div>
 	</form>
+
+	<div id="showme" style="display:none;"></div>
 
 	
 	<section>
