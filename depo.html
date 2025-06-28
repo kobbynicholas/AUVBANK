@@ -6,6 +6,7 @@
 	
     <title>AUV DEPO</title>
     <link rel="stylesheet" href="index.css">
+	
 </head>
 <body>
 	<d><h2>DEPOSIT</h2></d>
@@ -36,13 +37,11 @@
 		<div><p><input type="submit" value="Send" id="Add"  onclick="showDiv()"></p></div>
 	    
 <div id="showme" style="display:none;"></div>
-<div id="loadingGif" style="display:none"><img src="load.gif"  width="80" height="70" align-item="center" ></div>
+<div id="loadingGif" style="display:none"><img src="load.gif" width="80" height="70" align-item="center" ></div>
 
 		</form>
-		</div>	
 		</div>
-		</div>
-
+	
 	<section>
 	<footer>
 	<p><h6>AGE UNIQUE VENTURES</p></h6>
@@ -70,7 +69,7 @@
 	 /// document.getElementById("datetime").innerHTML = datetime;
 
 function getCurrentDateTime() {
-  const today = new Date(now);
+  const today = new Date();
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, '0');
   const day = String(today.getDate()).padStart(2, '0');
