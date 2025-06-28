@@ -18,5 +18,7 @@ function showDiv() {
   },5000);
 }
 
-
+function hideButton() {
+  document.getElementById("myButton").style.display = "none";
+}
 
