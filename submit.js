@@ -18,9 +18,7 @@ function showDiv() {
     document.getElementById('loadingGif').style.display = "flex";
     document.getElementById('showme').style.display = "flex";
   },5000);
-
-function disableButton() {
-  document.getElementById("submit").disabled = true;
+  
 }
 
   
