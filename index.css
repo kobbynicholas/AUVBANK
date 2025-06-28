@@ -132,6 +132,7 @@ button {
     width: 70%;
     font-size: 18px;
     text-color: black;
+    align-items: center;
 
 }
 button:hover{
