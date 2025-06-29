@@ -12,7 +12,7 @@
 
 <form id="pinForm">
   <label for="pin">Enter PIN:</label>
-  <input type="password" id="pin" name="pin" maxlength="4" autocomplete="off">
+  <input type="password" id="pin" name="pin" maxlength="4" autocomplete="off"   width: "100px">
   <button type="button" onclick="checkPIN()">Submit</button>
   <div id="message"></div>
 </form>
@@ -40,7 +40,7 @@
     if (pin === "1234") { // Replace "1234" with your desired PIN
       message.textContent = "PIN correct! Redirecting...";
       // Replace with your desired URL
-      window.location.href = "home.html"; // Redirect to your website
+      window.location.href = "home.html"// Redirect to your website
     } else {
       message.textContent = "Incorrect PIN. Please try again.";
       pinInput.value = ""; // Clear the input field
