@@ -1,0 +1,25 @@
+
+
+<form id="pinForm">
+  <label for="pin">Enter PIN:</label>
+  <input type="password" id="pin" name="pin" maxlength="4" autocomplete="off">
+  <button type="button" onclick="checkPIN()">Submit</button>
+  <div id="message"></div>
+</form>
+
+<script>
+  function checkPIN() {
+    const pinInput = document.getElementById('pin');
+    const message = document.getElementById('message');
+    const pin = pinInput.value;
+
+    if (pin === "1234") { // Replace "1234" with your desired PIN
+      message.textContent = "PIN correct! Redirecting...";
+      // Replace with your desired URL
+      window.location.href = "https://www.example.com"; // Redirect to your website
+    } else {
+      message.textContent = "Incorrect PIN. Please try again.";
+      pinInput.value = ""; // Clear the input field
+    }
+  }
+</script>
